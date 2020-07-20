@@ -1,0 +1,76 @@
+/* -------------------------- user_dashboard ------------------------ */
+.admin_dashboard{
+    height: 500px!important;
+}
+
+.profile_block{
+    background-color: #f2f2f2;
+}
+
+.user_dashboard{
+    background-color: #fff;
+    width: 28%;
+    /* height: 370px; */
+    height: 438px;
+    box-shadow: 0 0 3px 0 rgba(50,50,50,.3);
+    padding: 15px;
+}
+
+.user_dashboard .user_dashboard-infor img{
+    width: 60px;
+    height: 60px;
+    border-radius: 100px;
+}
+
+.user_dashboard .user_dashboard-infor p{
+    display: inline-block;
+    margin-left: 20px;
+    font-weight: 600;
+}
+
+.user_manager{
+    margin-top: 15px;
+}
+
+.user_manager-item{
+    margin-top: 20px;
+    display: inline-block;
+    width: 100%;
+    text-decoration: none;
+    color: #000;
+    cursor: pointer;
+}
+
+.sub-navigation{
+    margin-left: 35px;
+    display: none;
+}
+
+.user_manager-item:hover{
+    text-decoration: none;
+    color: red;
+}
+
+.user_manager-item:hover span{
+    color: #b77a0d;
+    font-weight: 600;
+}
+
+.user_manager-item span{
+    margin-left: 10px;
+    color: #000;
+}
+
+.user_manager-item i{
+    margin: auto 0;
+}
+
+.user_manager-item.active, .user_manager-item.active span{
+    font-weight: 600;
+    color: red;
+}
+
+.logout{
+    cursor: pointer;
+    margin-top: 15px;
+}

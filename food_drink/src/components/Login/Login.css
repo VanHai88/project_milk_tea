@@ -1,0 +1,97 @@
+.form_user{
+    background-color: #e2e2e2;
+}
+
+.block_form_user{
+    width: 50%;
+    background-color: #fff;
+    padding: 20px;
+    margin: 20px auto 60px;
+}
+
+.form_user h2{
+    text-align: center;
+    font-weight: 600;
+}
+
+.form_user .input-group{
+    display: block;
+    margin-top: 20px;
+}
+
+.form_user label{
+    font-weight: 600;
+}
+
+.form_user .input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e2e2e2;
+    outline: none;
+    margin-top: 0px;
+}
+
+.form_user .input-group button{
+    display: inline-block;
+    width: 100%;
+    margin: 40px 0;
+}
+
+.form_user .input-group input:focus{
+    border-bottom: 2px solid #91d5f5;
+    box-shadow: 0px 1px 0px 0px #91d5f5;
+    transition: all .5s;
+}
+
+.form_user p{
+    text-align: center;
+}
+
+.form_user p span{
+    font-weight: 600;
+}
+
+.block_form_user button:hover:active{
+    outline: none;
+}
+.login_quick{
+    text-align: center;
+    border-top: 1px solid #e2e2e2;
+    padding: 10px;
+}
+
+.login_quick button{
+    border: none;
+    background-color: #ebebeb;
+}
+
+.login_quick button i{
+    font-size: 20px;
+    color: #8f8f8f;
+}
+
+.login_g{
+    margin-right: 10px;
+}
+
+.login_g:hover{
+    background-color: #D64534;
+    color: #fff;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.login_g:hover i{
+    color: #fff;
+}
+
+.login_fb:hover{
+    background-color: #3E599E;
+    color: #fff;
+    font-weight: 600;
+    transition: all .5s;
+}
+
+.login_fb:hover i{
+    color: #fff;
+}

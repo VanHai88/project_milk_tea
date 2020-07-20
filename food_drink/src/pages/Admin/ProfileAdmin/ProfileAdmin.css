@@ -1,0 +1,92 @@
+.profile_block{
+    padding: 40px 0;
+}
+
+.profile_container{
+    display: flex;
+    justify-content: space-between;
+}
+
+/* --------------------------------- user_info ------------------------------------ */
+
+.user_info{
+    width: 65%;
+    box-shadow: 0 0 3px 0 rgba(50,50,50,.3);
+    background-color: #fff;
+}
+
+.user_info .user_infor-img img{
+    width: 120px;
+    height: 120px;
+    border-radius: 150px;
+    margin-right: 40px;
+}
+
+.user_info-title{
+    background-color: #f2f2f2;
+    padding: 15px;
+}
+
+.user_info-title h2{
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+}
+
+.user_info-body{
+    padding: 15px;
+}
+
+.user_info-body .user_info-avatar{
+    display: flex;
+    align-items: center;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #989898;
+}
+
+.topic_title{
+    font-weight: 600;
+    font-size: 18px;
+    color: #4073a7;
+    margin-top: 20px;
+}
+
+.user_info-change .block_form_user{
+    width: 100%;
+}
+
+.user_info-change .block_form_user label{
+    width: 150px;
+    font-weight: 600;
+    color: #000;
+}
+
+.user_info-change .block_form_user input{
+    outline: none;
+    width: 40%;
+}
+
+.user_info-change .block_form_user button{
+    outline: none;
+    margin-top: 35px;
+    padding: 8px 31px;
+    background-color: #4073a7;
+}
+
+.user_info-change .block_form_user .input-group{
+    margin-top: 15px;
+    display: block;
+}
+
+.group_pass #show_off_ques_pass button{
+    background: #fff;
+    border: none;
+    font-weight: 600;
+    color: #b57707;
+    border-bottom: 2px solid #b57707;
+    padding: 0;
+}
+
+#show_off_pass{
+    display: none;
+}

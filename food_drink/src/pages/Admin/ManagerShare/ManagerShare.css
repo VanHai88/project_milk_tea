@@ -1,0 +1,41 @@
+.products_table th, .products_table td {
+    vertical-align: middle !important;
+}
+
+.a .btn-warning {
+    color: #fff;
+    background-color: #f0ad4e;
+    border-color: #eea236;
+    padding: 5px 10px;
+}
+
+.products_table img{
+    width: 100px;
+    height: 100px;
+}
+
+.manager_user table{
+    padding: 0 20px;
+}
+.crate_and_search{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.block_search{
+    flex: 8;
+}
+
+.block_search input{
+    display: inline-block;
+    width: 80%;
+}
+
+.btn_create_user{
+    flex: 4;
+}
+
+.list_users{
+    padding: 10px;
+}

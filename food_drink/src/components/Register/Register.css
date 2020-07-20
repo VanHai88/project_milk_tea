@@ -1,0 +1,12 @@
+.form_user .input-group input[type=checkbox]{
+    width: 5%;
+}
+
+.form_user .input-group input[type=checkbox]:focus{
+    box-shadow: none;
+}
+
+.form_user .input-group .span_err{
+    color: red;
+    font-weight: 500;
+}

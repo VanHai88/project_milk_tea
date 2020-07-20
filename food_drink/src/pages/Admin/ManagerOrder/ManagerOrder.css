@@ -1,0 +1,36 @@
+.sort_order{
+    display: flex;
+    justify-content: flex-end;
+    padding: 0px 5px 5px 0;
+}
+
+.sort_order p:not(:last-child){
+    margin-right: 20px;
+}
+
+.sort_order p{
+    color: #007bff;
+    font-weight: bold;
+    padding: 10px 0;
+}
+
+.list_order{
+    padding: 10px;
+}
+
+.block_btn_manager_order{
+    display: flex;
+}
+
+.block_btn_manager_order button{
+    padding: 0px 6px;
+    margin-right: 5px;
+}
+
+.profile_block .dropdown-menu{
+    padding: 10px ;
+}
+
+.profile_block .dropdown-toggle{
+    padding: 8px 41px;
+}

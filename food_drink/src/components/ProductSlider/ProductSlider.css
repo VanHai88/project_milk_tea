@@ -1,0 +1,41 @@
+.slick-next {
+  right: -18px;
+}
+
+.slick-next:before,
+[dir="rtl"] .slick-prev:before {
+  content: "\f054";
+  font-family: "Font Awesome 5 Free";
+  font-weight: normal;
+  font-style: normal;
+  margin: 0 0 0 4px;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.slick-prev {
+  right: -18px;
+}
+
+.slick-prev:before {
+  content: "\f053";
+  font-family: "Font Awesome 5 Free";
+  font-weight: normal;
+  font-style: normal;
+  font-weight: 900;
+  display: inline-block;
+}
+
+.slick-arrow {
+  background-color: #46464670;
+  height: 40px;
+  width: 40px;
+  border-radius: 35px;
+  z-index: 2;
+  transition: all 0.5s;
+}
+.slick-arrow:hover,
+.slick-arrow:active,
+.slick-arrow:focus {
+  background-color: #3c3a3a !important;
+}

@@ -1,0 +1,29 @@
+.manager_user table{
+    padding: 0 20px;
+}
+.crate_and_search{
+    display: flex;
+    justify-content: space-between;
+    margin: 10px 0;
+}
+
+.block_search{
+    flex: 8;
+}
+
+.block_search input{
+    display: inline-block;
+    width: 80%;
+}
+
+.btn_create_user{
+    flex: 4;
+}
+
+.list_users{
+    padding: 10px;
+}
+
+.mr-10{
+    margin-right: 10px;
+}

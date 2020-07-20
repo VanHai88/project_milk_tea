@@ -1,0 +1,158 @@
+/* ----------------------- BANNER --------------------------- */
+
+.banner .carousel-indicators{
+    display: flex;
+    justify-content: flex-end;
+    z-index: 1;
+}
+
+.banner .carousel-indicators li{
+    text-indent: 0;
+    width: 25px;
+    height: 25px;
+    margin-right: 5px;
+    border-radius: 100px;
+    color: #e1b15c;
+    background-color: #fff;
+}
+
+.carousel-indicators .active{
+    background-color: #e1b15c !important;
+    color: #fff !important;
+}
+
+.banner .carousel-inner img{
+    height: calc(100vh - 90px);
+}
+
+.banner .carousel-inner, .carousel-control{
+    border-radius: 20px;
+}
+
+/* ----------------------- INTRODUCE --------------------------- */
+
+.introduce{
+    font-family: 'Quicksand', sans-serif;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.introduce .introduce_information h6{
+    font-size: 16px;
+    font-weight: 600;  
+}
+
+.introduce .introduce_information h2{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: #d49931;  
+    font-weight: 600;
+}
+
+.introduce .introduce_information a{
+    border: 1px solid #d49931;
+    color: #d49931;
+    font-weight: 600;
+    padding: 1rem 4rem;
+    border-radius: 42px;
+    text-decoration: none;
+    display: inline-block;
+    margin-top: 1.5rem;
+}
+
+.introduce .introduce_information a:hover{
+    border: 1px solid #d49931;
+    color: #fff;
+    background-color: #d49931;
+}
+
+.introduce_img img{
+    width: 100%;
+}
+
+/* ---------------------------------------- PRODUCT HOT ----------------------- */
+
+.product_hot{
+    background-color: #e1b15c1c;
+    font-family: 'Quicksand', sans-serif;
+    padding-bottom: 1rem;
+}
+
+.product_hot .title{
+    width: 720px;
+    text-align: center;
+    margin: auto;
+}
+
+.product_hot .title h6{
+    font-size: 16px;
+    font-weight: 600; 
+}
+
+.product_hot .title h2{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: #d49931;  
+    font-weight: 600;
+}
+
+/* ----------------------- PRODUCT MILK TEA ------------------------------ */
+.product_milk_tea{
+    padding: 4rem 0;
+}
+
+.product_milk_tea .well{
+    background-color: #fff;
+}
+
+
+.product_milk_tea .title{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    text-align: left;
+    margin-top: 0;
+    margin-bottom: 2.5rem;
+    color: #ce9737;
+    font-weight: 600;
+    border-bottom: 2px solid #d4993152;
+}
+
+.product_milk_tea .title h2{
+    margin-bottom: 1rem;
+}
+
+.product_milk_tea .title a{
+    text-decoration: none;
+    color: #000;
+    margin: auto 0;
+}
+
+.product_milk_tea .title i{
+    font-size: 12px;
+}
+
+/* -------------------------------- SEARCH BUMBA --------------------------------- */
+
+.search_bumba img{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.search_bumba ul{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 40px;
+}
+
+.search_bumba h2{
+    margin-top: 0;
+    margin-bottom: 3rem;
+    color: #d49931;  
+    font-weight: 600;
+    text-align: center;
+    font-size: 32px;
+}

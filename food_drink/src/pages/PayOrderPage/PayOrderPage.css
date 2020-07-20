@@ -1,0 +1,129 @@
+.pay_order h3{
+    margin: 34px 0;
+    color: rgb(179, 179, 179);
+    text-align: center;
+    margin-bottom: 60px;
+}
+
+.pay_order .topic_title{
+    font-weight: bold;
+    color: #000;
+    margin-top: 10px;
+}
+
+.btn_address_pay{
+    display: flex;
+    justify-content: space-around;
+}
+
+/* ----------------------------- pay_order_info ---------------------- */
+
+.pay_order_info{
+    padding: 10px;
+    border-top: 2px solid rgb(179, 179, 179);
+}
+
+.pay_order_info .form_infor_user .input-group{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.pay_order_info input{
+    width: 100%;
+    padding: 4px;
+    outline: none;
+}
+
+.pay_order_info .btn-war{
+    margin: 15px 0;
+    font-weight: bold;
+    background-color: #e1b15c;
+    border: none;
+    padding: 10px 30px;
+}
+
+/* ---------------- order_infor ------------------ */
+
+.order_infor{
+    border: 2px solid #e1b15c;
+    padding: 20px;
+}
+
+/* -------------------------------------- */
+
+/* ----------------------------- --------------------- */
+.pay_order .modal-content .close{
+    position: absolute;
+    top: -17px;
+    right: -40px;
+    opacity: 1;
+    font-size: 50px;
+    outline: none;
+}
+
+.pay_order .modal-content .close span{
+    color: #fff;
+}
+
+.pay_order .input-group{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.pay_order .input-group label{
+    display: block;
+}
+
+.pay_order .input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e2e2e2;
+    outline: none;
+    margin-top: 0px;
+}
+
+.pay_order .input-group input:focus{
+    border-bottom: 2px solid #91d5f5;
+    box-shadow: 0px 1px 0px 0px #91d5f5;
+    transition: all .5s;
+}
+
+.pay_order .modal-body {
+    height: 540px;
+}
+
+.pay_order .btn_block{
+    margin-top: 50px;
+    text-align: end;
+}
+
+.pay_order .btn_block button{
+    margin-left: 20px;
+    text-align: end;
+}
+
+.pay_order .btn_create{
+    text-align: end;
+    margin-right: 20px;
+}
+
+.col__address{
+    cursor: pointer;
+}
+
+.col__address:hover{
+    background-color: #f5e3c5!important;
+    transition: all .5s;
+}
+
+.table>tbody>.col__address.active_addRess>td{
+    background-color: #e1b15c;
+}
+
+.table>tbody>.col__address.active_addRess:hover>td{
+    background-color: #f5e3c5;
+}
+
+.active_addRess{
+    background-color: #e1b15c!important;
+}

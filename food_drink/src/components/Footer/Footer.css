@@ -1,0 +1,42 @@
+.footer{
+    background-color: #daa74e;
+    color: #fff;
+    padding: 20px 0;
+    display: flex;
+    justify-content: center;
+}
+
+.footer img{
+    width: 35%;
+}
+
+ul{
+    list-style: none;
+}
+
+.more_information ul{
+    display: flex;
+    justify-content: space-between;
+    width: 100px;
+}
+
+.more_information p{
+    margin: 20px 0;
+}
+
+.more_information ul li{
+    display: inline-block;
+    padding: 2px 12px;
+    border-radius: 20px;
+    border: 1px solid;
+    margin-left: 5px;
+}
+
+.contact li:first-child{
+    font-weight: 600;
+}
+
+.footer .coppy{
+    text-align: center;
+}
+

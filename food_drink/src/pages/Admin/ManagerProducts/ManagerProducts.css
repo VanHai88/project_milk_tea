@@ -1,0 +1,171 @@
+.products_table th,
+.products_table td {
+  vertical-align: middle !important;
+}
+
+.products_table img {
+  width: 100px;
+  height: 100px;
+}
+
+.products_table button {
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: 18px;
+}
+
+.products_table button:focus,
+.products_table button:active {
+  outline: none;
+  background: none;
+}
+
+.products_table .btn-default:active:focus {
+  color: green;
+  outline: none;
+  background: none;
+}
+
+.products_table i:focus {
+  outline: none;
+  background: none;
+}
+
+.products_table .btn_action {
+  width: 75px;
+}
+
+.products_table .btn_delete {
+  color: red;
+  margin-right: 5px;
+}
+
+.products_table .btn_edit {
+  color: #1f8ecf;
+  margin-right: 5px;
+}
+
+.products_table .btn_view {
+  color: #e1b15c;
+}
+
+.manager_user table {
+  padding: 0 20px;
+}
+.crate_and_search {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.block_search {
+  flex: 8;
+}
+
+.block_search input {
+  display: inline-block;
+  width: 80%;
+}
+
+.btn_create_user {
+  flex: 4;
+}
+
+.list_users {
+  padding: 10px;
+}
+
+/* --------------------- create__products -------------------------- */
+
+.create__products .modal-dialog {
+  width: 970px !important;
+}
+
+.create__products .modal-body {
+  height: auto;
+}
+
+.create__products img {
+  width: 100px;
+  height: 100px;
+}
+
+.create__products .topic_title{
+  color: #000;
+}
+
+.create__products .input-group {
+  width: 100%;
+  margin-top: 20px;
+}
+
+.create__products .input-group input {
+  width: 100%;
+}
+
+.create__products .input-group input:focus {
+  outline: none;
+}
+
+.create__products h2 {
+  text-align: center;
+  color: #e1b15c;
+}
+
+.create__products .btn_block {
+  text-align: end;
+}
+
+.create__products .btn {
+  margin-top: 20px;
+  text-align: end;
+}
+
+.create__products .btn_block button {
+  margin-left: 10px;
+}
+
+.create__products button:hover, .create__products button:focus{
+  border: none;
+  outline: none;
+}
+
+.create__products .close {
+  font-size: 60px;
+  position: absolute;
+  right: -40px;
+  top: -21px;
+  color: #fff;
+  opacity: 1;
+}
+
+.create__products .product__img{
+  display: flex;
+  align-items: center;
+}
+
+.create__products .product-img{
+  flex: 6;
+  margin-bottom: 20px;
+}
+
+.create__products .img__form{
+  flex: 11;
+  margin-top: 71px;
+}
+
+.btn_action a{
+  padding: 0;
+  border: none;
+  background: none;
+  font-size: 20px;
+}
+
+.nav-page{
+  text-align: center;
+}
+
+.nav-page .page-link{
+  cursor: pointer;
+}

@@ -1,0 +1,94 @@
+.table > thead > tr > th {
+  padding: 8px 2px;
+}
+
+.user_info-body button {
+  background: none;
+  padding: 0;
+  border: none;
+  font-size: 18px;
+}
+
+.user_info-body button:focus, .user_info-body button:active{
+    outline: none;
+    background: none;
+}
+
+.user_info-body .btn-default:active:focus{
+    color: green;
+    outline: none;
+    background: none;
+}
+
+.user_info-body i:focus{
+    outline: none;
+    background: none;
+}
+
+.user_info-body .btn_action{
+    width: 75px;
+}
+
+.user_info-body .btn_action button{
+    margin-right: 10px;
+}
+
+.user_info-body .btn_delete{
+    color: red;
+    margin-right: 5px;
+}
+
+.user_info-body .btn_edit{
+    color: #1f8ecf;
+    margin-right: 5px;
+}
+
+.user_info-body .btn_view{
+    color: #e1b15c;
+}
+
+/* ----------------------------- --------------------- */
+.profile_block .form_infor_user .input-group{
+    width: 100%;
+    margin-top: 15px;
+}
+
+.profile_block .form_infor_user input{
+    width: 100%;
+    padding: 4px;
+    outline: none;
+}
+
+.profile_block .form_infor_user button{
+    margin: 15px 0;
+    font-weight: bold;
+    background-color: #e1b15c;
+    border: none;
+    padding: 10px 30px;
+}
+
+.profile_block .product_view_img img{
+    width: 80px;
+    height: 80px;
+}
+
+.profile_block .modal-footer{
+    text-align: center;
+}
+
+.profile_block .modal-footer{
+    text-align: center;
+}
+
+.profile_block .title_order{
+    text-align: end;
+    padding: 10px 10px 0px 0px;
+    color: red;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.profile_block .modal-body{
+    height: 380px;
+    overflow: auto;
+}

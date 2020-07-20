@@ -1,0 +1,81 @@
+.thumbnail{
+    border: none;
+    padding: 10px;
+    padding-bottom: 0;
+    margin-bottom: 0;
+    border-radius: 15px;
+    position: relative;
+  }
+  
+  .thumbnail a{
+    text-decoration: none;
+    color: #fff;
+  }
+  
+  .thumbnail:hover .like_product{
+    z-index: 1;
+    transition: all .5s;
+  }
+  
+  .like_product:hover{
+    color: #ff0000c7;
+  }
+  
+  .thumbnail:hover .detailt_product{
+    top: 24rem;
+    z-index: 1;
+    transition: all .8s;
+  }
+  
+  .like_product{
+    top: 1rem;
+    position: absolute;
+    right: 2rem;
+    border: 2px solid;
+    z-index: -1;
+    padding: 4px 7px;
+    border-radius: 20px;
+    color: #0000007a;
+    cursor: pointer;
+  }
+  
+  .detailt_product{
+    position: absolute;
+    top: 28rem;;
+    width: 93%;
+    text-align: center;
+    padding: 1rem 0;
+    text-decoration: none;
+    font-weight: 600;
+    background-color: #f5ac06c7;
+    color: #fff;
+    z-index: -1;
+    transition: all .8s;
+  }
+  
+  .thumbnail .caption{
+    background-color: #eee8df;
+  }
+  
+  .thumbnail .caption h4{
+    margin: 0;
+    padding-left: 1.5rem;
+    font-size: 19px;
+    color: #af740b;
+    font-weight: bold;
+    z-index: 2;
+    white-space: nowrap;
+    width: 140px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+  }
+  
+  
+  .thumbnail .caption p{
+    font-weight: 600;
+    color: #000;
+    font-size: 20px;
+    text-align: right;
+    margin-top: 10px;
+    margin-right: 20px;
+  }

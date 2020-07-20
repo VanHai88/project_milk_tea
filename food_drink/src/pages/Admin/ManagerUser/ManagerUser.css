@@ -1,0 +1,66 @@
+.manager_user table {
+  padding: 0 20px;
+}
+.crate_and_search {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 0;
+}
+
+.block_search {
+  flex: 8;
+}
+
+.block_search input {
+  display: inline-block;
+  width: 80%;
+}
+
+.btn_create_user {
+  flex: 4;
+}
+
+.list_users {
+  padding: 10px;
+}
+
+/* --------------------------------------- create__user ------------------------ */
+
+.create__user .modal-body {
+  height: auto;
+}
+
+.create__user .close {
+  position: absolute;
+  top: -22px;
+  left: 608px;
+  font-size: 60px;
+  color: #fff;
+  opacity: 1;
+  outline: none;
+}
+
+.create__user label {
+  display: block;
+}
+
+.create__user .input-group,
+.create__user input {
+  width: 100%;
+}
+
+.create__user .input-group {
+  margin: 10px 0;
+}
+
+.create__user input:focus {
+  outline: none;
+}
+
+.create__user .btn_block{
+    text-align: end;
+}
+
+.create__user .btn_block button{
+    margin-left: 20px;
+}

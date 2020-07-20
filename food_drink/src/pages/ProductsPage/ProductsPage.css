@@ -1,0 +1,79 @@
+.products_page{
+    border-top: 1px solid #00000026;
+    padding-top: 30px;
+}
+
+.products_page-category p{
+    font-weight: 600;
+    font-size: 20px;
+}
+
+.products_page-list{
+    margin-top: 20px;
+}
+
+.products_item{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.products_page .thumbnail{
+    width: 196px;
+    height: 300px;
+    margin-top: 30px;
+    margin-left: 10px;
+}
+
+.products_page .thumbnail .caption p{
+    margin-right: 10px;
+}
+
+.products_page .like_product{
+    top: 1rem;
+    right: 1.2rem;
+}
+
+.products_page .detailt_product{
+    top: 20rem;
+}
+
+.products_page .thumbnail:hover .detailt_product{
+    top: 15rem;
+}
+
+.products_page .detailt_product{
+    top: 19rem;
+    width: 90%;
+    z-index: -1;
+}
+
+.products_page  .thumbnail .caption h4{
+    padding-left: 0;
+}
+
+/* ------------------------ dropdown-toggle --------------------- */
+
+.products_page .dropdown-toggle{
+    width: 68%;
+}
+
+.ml-5{
+    margin-left: 10px;
+}
+
+.products_page .dropdown-menu{
+    width: 68%;
+    padding-left: 10px;
+}
+
+.sort_selected::after{
+    content: '\f00c';
+    font-family: "Font Awesome 5 Free";
+    font-weight: normal;
+    font-style: normal;
+    margin: 0 0 0 10px;
+    font-weight: 900;
+    display: inline-block;
+  }
+
+

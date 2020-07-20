@@ -1,0 +1,44 @@
+.order_complete_page h3{
+    margin: 34px 0;
+    color: rgb(179, 179, 179);
+    text-align: center;
+}
+
+.tile_active{
+    color: black;
+    font-weight: bold;
+}
+
+.btn_view_product{
+    display: inline-block;
+    padding: 10px;
+    border: 1px solid #d58512;
+    color: #d58512;
+    text-decoration: none;
+    font-weight: bold;
+    margin: 10px 0 40px;
+}
+
+.btn_view_order{
+    margin-left: 20px;
+}
+
+.btn_view_product:hover{
+    background-color: #d58512;
+    transition: all .5s;
+    color: #fff;
+    text-decoration: none;
+}
+
+.order_complete_content{
+    text-align: center;
+    margin-top: 50px;
+}
+
+.order_complete_content h1{
+    font-weight: bold;
+}
+
+.order_complete_content img{
+    width: 200px;
+}

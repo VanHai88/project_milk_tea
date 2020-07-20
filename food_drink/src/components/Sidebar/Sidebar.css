@@ -1,0 +1,29 @@
+.products_page-appreciate .list-group-item{
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+    display: flex;
+    padding-left: 0;
+}
+
+.products_page-appreciate .list-group .list-group-item img{
+    width: 40%;
+    margin-right: 10px;
+}
+
+.products_page-appreciate .list-group-item .caption p{
+    font-weight: 600;
+}
+
+.products_page-category-list, .products_page-appreciate{
+    margin-top: 40px;
+}
+
+.products_page .products_page-description h4{
+    margin-bottom: 30px;
+    color: #af7a1c
+}
+
+.products_page .products_page-appreciate .products_item .caption p{
+    margin-left: 10rem;
+}

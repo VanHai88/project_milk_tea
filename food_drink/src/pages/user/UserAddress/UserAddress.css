@@ -1,0 +1,55 @@
+.userAddress_block .modal-content .close{
+    position: absolute;
+    top: -17px;
+    right: -32px;
+    opacity: 1;
+    font-size: 50px;
+    outline: none;
+}
+
+.userAddress_block .modal-content .close span{
+    color: #fff;
+}
+
+.userAddress_block .input-group{
+    width: 100%;
+    margin-top: 20px;
+}
+
+.userAddress_block .input-group label{
+    display: block;
+}
+
+.userAddress_block .input-group input{
+    width: 100%;
+    border: none;
+    border-bottom: 2px solid #e2e2e2;
+    outline: none;
+    margin-top: 0px;
+}
+
+.userAddress_block .input-group input:focus{
+    border-bottom: 2px solid #91d5f5;
+    box-shadow: 0px 1px 0px 0px #91d5f5;
+    transition: all .5s;
+}
+
+.userAddress_block .modal-body {
+    height: 496px;
+    overflow: auto;
+}
+
+.userAddress_block .btn_block{
+    margin-top: 50px;
+    text-align: end;
+}
+
+.userAddress_block .btn_block button{
+    margin-left: 20px;
+    text-align: end;
+}
+
+.userAddress_block .btn_create{
+    text-align: end;
+    margin-right: 20px;
+}
